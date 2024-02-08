@@ -22,7 +22,7 @@
   },
   "version": "8.2.0",
   "frameworks": {
-    "arduino-seeed-custom": {
+    "arduino-samd-seeed": {
       "package": "framework-arduino-sam",
       "script": "builder/frameworks/arduino.py"
     }
@@ -39,7 +39,7 @@
         "~1.90301.0"
       ]
     },
-    "framework-arduino-seeed-custom": {
+    "framework-arduino-samd-seeed": {
       "type": "framework",
       "optional": true,
       "owner": "theholypumpkin",
