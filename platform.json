@@ -23,7 +23,7 @@
   "version": "8.2.0",
   "frameworks": {
     "arduino-samd-seeed": {
-      "package": "framework-arduino-sam",
+      "package": "framework-arduino-samd-seeed",
       "script": "builder/frameworks/arduino.py"
     }
   },
