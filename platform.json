@@ -45,6 +45,24 @@
       "owner": "theholypumpkin",
       "version": "https://github.com/theholypumpkin/ArduinoCore-samd.git"
     },
+    "framework-cmsis": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.40500.0",
+      "optionalVersions": [
+        "~2.50400.0"
+      ]
+    },
+    "framework-cmsis-atmel": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.2.2",
+      "optionalVersions": [
+        "~1.1.0"
+      ]
+    },
     "tool-avrdude": {
       "type": "uploader",
       "optional": true,
