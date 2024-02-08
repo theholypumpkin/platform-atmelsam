@@ -1,6 +1,6 @@
 {
-  "name": "atmelsam",
-  "title": "Atmel SAM",
+  "name": "atmelsam_custom",
+  "title": "Atmel SAM Custom Framework",
   "description": "Atmel | SMART offers Flash- based ARM products based on the ARM Cortex-M0+, Cortex-M3 and Cortex-M4 architectures, ranging from 8KB to 2MB of Flash including a rich peripheral and feature mix.",
   "homepage": "https://www.microchip.com/design-centers/32-bit",
   "license": "Apache-2.0",
@@ -18,17 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-atmelsam.git"
+    "url": "https://github.com/theholypumpkin/platform-atmelsam.git"
   },
   "version": "8.2.0",
   "frameworks": {
     "arduino": {
       "package": "framework-arduino-sam",
       "script": "builder/frameworks/arduino.py"
-    },
-    "zephyr": {
-      "package": "framework-zephyr",
-      "script": "builder/frameworks/zephyr.py"
     }
   },
   "packages": {
@@ -43,89 +39,11 @@
         "~1.90301.0"
       ]
     },
-    "framework-arduino-sam": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.6.12"
-    },
-    "framework-arduino-samd": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.8.13"
-    },
-    "framework-arduino-samd-adafruit": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.7.13"
-    },
     "framework-arduino-samd-seeed": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
       "version": "~1.8.4"
-    },
-    "framework-arduino-samd-moteino": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.6.3"
-    },
-    "framework-arduino-samd-reprap": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.0.2"
-    },
-    "framework-arduino-samd-sodaq": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.8.9"
-    },
-    "framework-arduino-samd-sparkfun": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.8.3"
-    },
-    "framework-arduino-samd-tuino0": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.0.6"
-    },
-    "framework-cmsis": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.40500.0",
-      "optionalVersions": [
-        "~2.50400.0"
-      ]
-    },
-    "framework-cmsis-atmel": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~1.2.2",
-      "optionalVersions": [
-        "~1.1.0"
-      ]
-    },
-    "framework-arduino-mbcwb": {
-      "type": "framework",
-      "optional": true,
-      "owner": "meteca",
-      "version": ">=2.1.1"
-    },
-    "framework-zephyr": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~2.20701.0"
     },
     "tool-avrdude": {
       "type": "uploader",
