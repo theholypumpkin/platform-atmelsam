@@ -22,7 +22,7 @@
   },
   "version": "8.2.0",
   "frameworks": {
-    "arduino": {
+    "arduino-seeed-custom": {
       "package": "framework-arduino-sam",
       "script": "builder/frameworks/arduino.py"
     }
@@ -39,11 +39,11 @@
         "~1.90301.0"
       ]
     },
-    "framework-arduino-samd-seeed": {
+    "framework-arduino-seeed-custom": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "~1.8.4"
+      "version": "https://github.com/theholypumpkin/ArduinoCore-samd.git"
     },
     "tool-avrdude": {
       "type": "uploader",
